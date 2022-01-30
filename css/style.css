@@ -45,7 +45,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  
+  text-align: center;
   font-family:"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","游明朝体","Yu Mincho","ＭＳ Ｐ明朝","MS PMincho",serif;
 
   font-weight: 400;
