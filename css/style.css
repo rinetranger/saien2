@@ -19,7 +19,7 @@ body {
   font-size: 14px;
   line-height: 1.6;
   color: rgba(0, 0, 0, 0.5);
-  background: whitesmoke;
+  background: white;
 }
 @media screen and (max-width: 992px) {
   body {
@@ -45,6 +45,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
+  
   font-family:"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","游明朝体","Yu Mincho","ＭＳ Ｐ明朝","MS PMincho",serif;
 
   font-weight: 400;
@@ -129,7 +130,10 @@ figure figcaption {
   margin-bottom: 2em;
   text-transform: uppercase;
   font-size: 32px;
+  display: block;
+  
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-aside #fh5co-logo {
     margin-bottom: 1em;
