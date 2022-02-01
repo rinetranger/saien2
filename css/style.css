@@ -109,7 +109,7 @@ figure figcaption {
   -ms-overflow-style: none;    /* IE, Edge 対応 */
   scrollbar-width: none;       /* Firefox 対応 */
 }
-#fh5co-aside::wibkit-webkit-scrollbar{
+#fh5co-aside::-webkit-scrollbar{
   display: none;
 }
 
@@ -150,7 +150,7 @@ figure figcaption {
   color: #000;
 }
 #fh5co-aside #fh5co-logo a span {
-  font-weight: 300;
+  font-weight: 200;
   color: rgba(0, 0, 0, 0.5);
 }
 #fh5co-aside #fh5co-main-menu ul {
