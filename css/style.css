@@ -105,7 +105,14 @@ figure figcaption {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  overflow-y: scroll;
+  -ms-overflow-style: none;    /* IE, Edge 対応 */
+  scrollbar-width: none;       /* Firefox 対応 */
 }
+#fh5co-aside::wibkit-webkit-scrollbar{
+  display: none;
+}
+
 @media screen and (max-width: 1200px) {
   #fh5co-aside {
     width: 30%;
