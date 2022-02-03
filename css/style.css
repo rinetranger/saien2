@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-family:"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","游明朝体","Yu Mincho","ＭＳ Ｐ明朝","MS PMincho",serif;
 
-  font-weight: 400;
+  font-weight: 100;
   margin: 0 0 30px 0;
 }
 
@@ -150,7 +150,7 @@ figure figcaption {
   color: #000;
 }
 #fh5co-aside #fh5co-logo a span {
-  font-weight: 200;
+  font-weight: 2  00;
   color: rgba(0, 0, 0, 0.5);
 }
 #fh5co-aside #fh5co-main-menu ul {
