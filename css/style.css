@@ -1264,5 +1264,31 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 
+table{
+  width: 100%;
+}
+
+table th{
+  position: relative;
+  text-align: left;
+  width: 45%;
+}
+
+table th:after{
+  display: block;
+  content: "";
+  width: 56px;
+  height: 1px;
+  background-color: rgb(97, 96, 96);
+  position: absolute;
+  top:calc(50% - 1px);
+  right:20px;
+}
+
+table td{
+  text-align: left;
+  width: 85%;
+}
+
 
 /*# sourceMappingURL=style.css.map */
