@@ -567,35 +567,68 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   overflow: hidden;
 }
 #work001{
-  background-image: url(../images/11.png);
-  opacity:0.6;
+  background-image:url(../images/11.png);
+  opacity:0.8;
 }
 #work002{
-  background-image: url(../images/22.png);
-  opacity:0.6;
+  background-image:url(../images/22.png);
+  opacity:0.8;
 }
 #work003{
-  background-image: url(../images/33.png);
-  opacity:0.6;
+  background-image:url(../images/33.png);
+  opacity:0.8;
 }
 #work004{
-  background-image: url(../images/44.png);
-  opacity:0.6;
+  background-image:url(../images/44.png);
+  opacity:0.8;
 }
 #work005{
-  background-image: url(../images/55.png);
-  opacity:0.6;
+  background-image:url(../images/55.png);
+  opacity:0.8;
 }
 #work006{
-  background-image: url(../images/66.png);
-  opacity:0.6;
+  background-image:url(../images/66.png);
+  opacity:0.8;
 }
 #work007{
-  background-image: url(../images/77.png);
-  opacity:0.6;
+  background-image:url(../images/77.png);
+  opacity:0.8;
 }
 #work008{
-  background-image: url(../images/88.png);
+  background-image:url(../images/88.png);
+  opacity:0.6;
+}
+
+#work101{
+  background-color: rgb(200, 138, 200);
+  opacity:0.6;
+}
+#work102{
+  background-color: rgb(200, 138, 200);
+  opacity:0.6;
+}
+#work103{
+  background-color: rgb(200, 138, 200);
+  opacity:0.6;
+}
+#work104{
+  background-color: rgb(200, 138, 200);
+  opacity:0.6;
+}
+#work105{
+  background-color: rgb(200, 138, 200);
+  opacity:0.6;
+}
+#work106{
+  background-color: rgb(200, 138, 200);
+  opacity:0.6;
+}
+#work107{
+  background-color: rgb(200, 138, 200);
+  opacity:0.6;
+}
+#work108{
+  background-color: rgb(200, 138, 200);
   opacity:0.6;
 }
 
@@ -610,38 +643,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     height: 270px;
     background-image: none;
   }
-  #work001{
-    background-image:#e5ccff!important;
-    opacity:0.6;
-  }
-  #work002{
-    background-image:#e5ccff!important;
-    opacity:0.6;
-  }
-  #work003{
-    background-image:#e5ccff!important;
-    opacity:0.6;
-  }
-  #work004{
-    background-image:#e5ccff!important;
-    opacity:0.6;
-  }
-  #work005{
-    background-image:#e5ccff!important;
-    opacity:0.6;
-  }
-  #work006{
-    background-image:#e5ccff!important;
-    opacity:0.6;
-  }
-  #work007{
-    background-image:#e5ccff!important;
-    opacity:0.6;
-  }
-  #work008{
-    background-image:#e5ccff!important;
-    opacity:0.6;
-  }
+  
   
 }
 .work .desc {

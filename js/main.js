@@ -145,6 +145,76 @@
 
 	};
 
+	var changeImage=function(){
+		const aa=document.getElementById("work001");
+		const bb=document.getElementById("work002");
+		const cc=document.getElementById("work003");
+		const dd=document.getElementById("work004");
+		const ee=document.getElementById("work005");
+		const ff=document.getElementById("work006");
+		const gg=document.getElementById("work007");
+		const hh=document.getElementById("work008");
+		if (window.matchMedia && window.matchMedia('(max-device-width: 640px)').matches) {
+			const aa=document.getElementById("work001");
+			aa.id="work101"
+		  } else {
+			aa.id="work001"
+			
+		  }
+		  
+		if (window.matchMedia && window.matchMedia('(max-device-width: 640px)').matches) {
+			const bb=document.getElementById("work002");
+			bb.id="work102";
+			
+		  } else {
+			bb.id="work002";
+		  }
+		  
+		if (window.matchMedia && window.matchMedia('(max-device-width: 640px)').matches) {
+			const cc=document.getElementById("work003");
+			cc.id="work103"
+		  } else {
+			cc.id="work003"
+		  }
+		 
+		if (window.matchMedia && window.matchMedia('(max-device-width: 640px)').matches) {
+			const dd=document.getElementById("work004");
+			dd.id="work104"
+			
+		  } else {
+			dd.id="work004"
+		  }
+		  
+		if (window.matchMedia && window.matchMedia('(max-device-width: 640px)').matches) {
+			const ee=document.getElementById("work005");
+			ee.id="work105"
+		  } else {
+			ee.id="work005"
+		  }
+		  
+		if (window.matchMedia && window.matchMedia('(max-device-width: 640px)').matches) {
+			const ff=document.getElementById("work006");
+			ff.id="work106"
+		  } else {
+			ff.id="work006"
+		  }
+		  
+		if (window.matchMedia && window.matchMedia('(max-device-width: 640px)').matches) {
+			const gg=document.getElementById("work007");
+			gg.id="work107"
+		  } else {
+			gg.id="work007"
+		  }
+		  
+		if (window.matchMedia && window.matchMedia('(max-device-width: 640px)').matches) {
+			const hh=document.getElementById("work008");
+			hh.id="work108"
+		  } else {
+			hh.id="work008"
+		  }
+		  
+	}
+
 	// Document on load.
 	$(function(){
 		fullHeight();
@@ -152,6 +222,7 @@
 		burgerMenu();
 		mobileMenuOutsideClick();
 		sliderMain();
+		changeImage();
 	});
 
 
