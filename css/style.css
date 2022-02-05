@@ -566,15 +566,83 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   display: table;
   overflow: hidden;
 }
+#work001{
+  background-image: url(../images/11.png);
+  opacity:0.6;
+}
+#work002{
+  background-image: url(../images/22.png);
+  opacity:0.6;
+}
+#work003{
+  background-image: url(../images/33.png);
+  opacity:0.6;
+}
+#work004{
+  background-image: url(../images/44.png);
+  opacity:0.6;
+}
+#work005{
+  background-image: url(../images/55.png);
+  opacity:0.6;
+}
+#work006{
+  background-image: url(../images/66.png);
+  opacity:0.6;
+}
+#work007{
+  background-image: url(../images/77.png);
+  opacity:0.6;
+}
+#work008{
+  background-image: url(../images/88.png);
+  opacity:0.6;
+}
+
 @media screen and (max-width: 768px) {
   .work {
     height: 400px;
+    
   }
 }
 @media screen and (max-width: 480px) {
   .work {
     height: 270px;
+    background-image: none;
   }
+  #work001{
+    background-image:#e5ccff!important;
+    opacity:0.6;
+  }
+  #work002{
+    background-image:#e5ccff!important;
+    opacity:0.6;
+  }
+  #work003{
+    background-image:#e5ccff!important;
+    opacity:0.6;
+  }
+  #work004{
+    background-image:#e5ccff!important;
+    opacity:0.6;
+  }
+  #work005{
+    background-image:#e5ccff!important;
+    opacity:0.6;
+  }
+  #work006{
+    background-image:#e5ccff!important;
+    opacity:0.6;
+  }
+  #work007{
+    background-image:#e5ccff!important;
+    opacity:0.6;
+  }
+  #work008{
+    background-image:#e5ccff!important;
+    opacity:0.6;
+  }
+  
 }
 .work .desc {
   display: table-cell;
