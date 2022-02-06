@@ -494,7 +494,8 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 @media screen and (max-width: 768px) {
   .blog-entry {
-    margin-bottom: 30px;
+   
+    margin:56px;
     
   }
   
