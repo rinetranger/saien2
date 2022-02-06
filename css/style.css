@@ -495,7 +495,9 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 @media screen and (max-width: 768px) {
   .blog-entry {
     margin-bottom: 30px;
+    
   }
+  
 }
 .blog-entry .blog-img {
   width: 100%;
@@ -504,6 +506,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   position: relative;
   z-index: 1;
   margin-bottom: 25px;
+  
 }
 .blog-entry .blog-img img {
   position: relative;
@@ -516,6 +519,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   -webkit-transition: 0.9s;
   -o-transition: 0.9s;
   transition: 0.9s;
+  
 }
 .blog-entry .desc {
   padding: 25px;
