@@ -1294,5 +1294,28 @@ table td{
   width: 85%;
 }
 
+.double{
+	width:100%;
+	text-align:center;
+}
+.double h2{
+	position:relative;
+	display:inline-block;
+  color:black !important;
+}
+.double h2:before, .double h2:after{
+	content:"";
+	display:block;
+	width:200px;
+	height:4px;
+	border-top:1px solid #CF91F2;
+	border-bottom:1px solid #CF91F2;
+	position:absolute;
+	top:50%;
+	margin-top:-2px;
+}
+.double h2:before{left:-224px;}
+.double h2:after{right:-224px;}
+
 
 /*# sourceMappingURL=style.css.map */
