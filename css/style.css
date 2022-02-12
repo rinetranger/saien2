@@ -1317,5 +1317,34 @@ table td{
 .double h2:before{left:-224px;}
 .double h2:after{right:-224px;}
 
+h2.multi{
+	padding:6px 0;
+	border-bottom:8px solid #ABDEF7;
+	position:relative;
+}
+h3.multi:before, h2.multi:after{
+	content:"";
+	display:block;
+	height:8px;
+	position:absolute;
+	bottom:-8px;
+}
+h3.multi:before{
+	width:20%;
+	left:8%;
+	background:rgba(255,255,255,0.7);
+}
+h3.multi:after{
+	width:30%;
+	left:12%;
+	background:rgba(87,176,224,0.6);
+}
+
+@media screen and (max-width: 768px) {
+  #privacy001 {
+   margin:36px !important;
+  }
+}
+
 
 /*# sourceMappingURL=style.css.map */
