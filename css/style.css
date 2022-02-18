@@ -1347,4 +1347,26 @@ h3.multi:after{
 }
 
 
+.breadcrumb{/* 背景色の変更 */
+	background: white;
+}
+.breadcrumb a{/* 文字色 */
+	color:#000;
+}
+.breadcrumb-item.active{/* アクティブ文字色の変更 */
+	color:rgb(134, 181, 255);
+}
+.breadcrumb-item+.breadcrumb-item::before{/* 区切り線の文字色変更 */
+	color:#000;
+}
+.breadcrumb-item+.breadcrumb-item::before{/*区切り線の変更*/
+  content: ">";
+}
+
+
+@media screen and (max-width: 768px) {
+  .breadcrumb {
+   display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
