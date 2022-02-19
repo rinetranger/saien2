@@ -190,7 +190,7 @@ figure figcaption {
   bottom: 0px;
   left: 10px;
   right: 10px;
-  background-color: #91B5F2;
+  background-color: #E6D4A1;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -1308,8 +1308,8 @@ table td{
 	display:block;
 	width:200px;
 	height:4px;
-	border-top:1px solid #CF91F2;
-	border-bottom:1px solid #CF91F2;
+	border-top:1px solid #E6D4A1;
+	border-bottom:1px solid #E6D4A1;
 	position:absolute;
 	top:50%;
 	margin-top:-2px;
@@ -1351,10 +1351,10 @@ h3.multi:after{
 	background: white;
 }
 .breadcrumb a{/* 文字色 */
-	color:#000;
+	color:#E6D4A1;
 }
 .breadcrumb-item.active{/* アクティブ文字色の変更 */
-	color:rgb(134, 181, 255);
+	color:#000;
 }
 .breadcrumb-item+.breadcrumb-item::before{/* 区切り線の文字色変更 */
 	color:#000;
