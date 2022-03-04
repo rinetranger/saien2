@@ -14,9 +14,9 @@ body {
   font-family:"ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","游明朝体","Yu Mincho","ＭＳ Ｐ明朝","MS PMincho",serif;
 
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, );
   background: white;
 }
 @media screen and (max-width: 992px) {
@@ -1363,10 +1363,35 @@ h3.multi:after{
   content: ">";
 }
 
+.saiendesc001{
+  margin-right: 40px;
+  
+}
+.saiendesc002{
+  margin-right: 40px;
+  
+}
 
 @media screen and (max-width: 768px) {
   .breadcrumb {
    display: none;
+  }
+  #saien011{
+    display: none;
+  }
+  .saiendesc001{
+    margin: 8px;
+   
+  }
+  .saiendesc002{
+    margin: 8px;
+    margin-bottom: 80px;
+  }
+  .table001{
+    margin: 8px;
+  }
+  .aboutsaien{
+    margin-top: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
